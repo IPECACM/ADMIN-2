@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:padding="180dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/f_name"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="15dp"
+            android:hint="Name"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+
+        <ImageView
+            android:id="@+id/f_delete"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="33dp"
+            android:layout_marginLeft="350dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginBottom="32dp"
+            android:layout_toEndOf="@+id/f_name"
+            android:src="@drawable/ic_baseline_delete_24" />
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/o_edit"-->
+        <!--            android:layout_width="40dp"-->
+        <!--            android:layout_height="53dp"-->
+        <!--            android:layout_alignParentTop="true"-->
+        <!--            android:layout_alignParentEnd="true"-->
+        <!--            android:layout_marginStart="86dp"-->
+        <!--            android:layout_marginLeft="350dp"-->
+        <!--            android:layout_marginTop="15dp"-->
+        <!--            android:layout_marginEnd="15dp"-->
+        <!--            android:layout_toEndOf="@+id/add_title"-->
+        <!--            android:src="@drawable/ic_baseline_edit_24" />-->
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

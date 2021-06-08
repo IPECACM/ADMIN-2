@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/faculty"
+        android:layout_width="150dp"
+        android:layout_marginLeft="100dp"
+        app:cardCornerRadius="75dp"
+        app:elevation="50dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:elevation="10dp"
+            android:paddingLeft="25dp"
+            android:paddingTop="20dp"
+            android:text="Faculties"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold|italic" />
+        <ImageView
+            android:layout_width="130dp"
+            android:paddingLeft="35dp"
+            android:paddingTop="20dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/teacher"></ImageView>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/prime"
+        android:layout_width="150dp"
+        android:layout_marginLeft="100dp"
+        app:cardCornerRadius="75dp"
+        app:elevation="50dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:paddingTop="25dp"
+            android:paddingLeft="15dp"
+            android:text="Prime Core"
+            android:textStyle="bold|italic"
+            android:elevation="10dp"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+        <ImageView
+            android:layout_width="150dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="20dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/team"></ImageView>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/core"
+        android:layout_width="150dp"
+        android:layout_marginLeft="100dp"
+        app:cardCornerRadius="75dp"
+        app:elevation="50dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:paddingTop="20dp"
+            android:paddingLeft="45dp"
+            android:text=" Core"
+            android:textStyle="bold|italic"
+            android:elevation="10dp"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+        <ImageView
+            android:layout_width="150dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="20dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/team2"></ImageView>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

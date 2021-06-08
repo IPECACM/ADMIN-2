@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dashbord">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Dashbord">
+        <activity android:name=".TaskStatus"></activity>
+        <activity android:name=".ViewStudents" />
+        <activity android:name=".sig_selection" />
+        <activity android:name=".ViewTasks" />
+        <activity android:name=".Syllabus" />
+        <activity android:name=".TaskDisplay" />
+        <activity android:name=".registerSig" />
+        <activity android:name=".manageTasks" />
+        <activity android:name=".taskUpload" />
+        <activity android:name=".rcview" />
+        <activity android:name=".DeleteFaculty" />
+        <activity android:name=".DeletePrime" />
+        <activity android:name=".DeleteCore" />
+        <activity android:name=".registration" />
+        <activity android:name=".addMembers" />
+        <activity android:name=".NoticeAdapter" />
+        <activity android:name=".add_teacher" />
+        <activity android:name=".Update_Faculty" />
+        <activity android:name=".Notice_Function" />
+        <activity android:name=".Faculty_student" />
+        <activity android:name=".Magazine" />
+        <activity android:name=".Notice" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:padding="180dp">
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/t_name"
+            android:layout_width="119dp"
+            android:layout_height="39dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="17dp"
+            android:hint="Name"
+            android:textColor="#000000"
+            android:textSize="25dp" />
+
+        <!--        <ImageView-->
+        <!--            android:id="@+id/o_edit"-->
+        <!--            android:layout_width="40dp"-->
+        <!--            android:layout_height="53dp"-->
+        <!--            android:layout_alignParentTop="true"-->
+        <!--            android:layout_alignParentEnd="true"-->
+        <!--            android:layout_marginStart="86dp"-->
+        <!--            android:layout_marginLeft="350dp"-->
+        <!--            android:layout_marginTop="15dp"-->
+        <!--            android:layout_marginEnd="15dp"-->
+        <!--            android:layout_toEndOf="@+id/add_title"-->
+        <!--            android:src="@drawable/ic_baseline_edit_24" />-->
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

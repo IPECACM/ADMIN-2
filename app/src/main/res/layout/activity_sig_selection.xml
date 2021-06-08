@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".sig_selection">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="60dp"
+        android:text="Enter the year , for which you want to open or close the sig selection form"
+        android:textColor="@color/black"
+        android:textStyle="bold|italic" />
+    <EditText
+        android:id="@+id/yr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="30dp"
+        android:hint="Enter Year" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/close"
+        android:layout_width="103dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:text="CLOSE" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:text="OPEN" />
+    </LinearLayout>
+
+</LinearLayout>
